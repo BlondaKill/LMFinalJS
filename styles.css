@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Covered+By+Your+Grace&family=Lilita+One&family=Permanent+Marker&family=Righteous&family=Roboto:wght@300&family=Rubik+80s+Fade&family=Rubik+Vinyl&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital@1&family=Covered+By+Your+Grace&family=Lilita+One&family=Permanent+Marker&family=Righteous&family=Roboto:wght@300&family=Rubik+80s+Fade&family=Rubik+Vinyl&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Covered+By+Your+Grace&family=Lilita+One&family=Permanent+Marker&family=Righteous&family=Roboto:wght@300&family=Rubik+80s+Fade&family=Rubik+Mono+One&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap');
+
+
+
+body {
+    margin: 0px;
+}
+
+/* navbar */
+.nav-container {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: black;
+}
+
+.navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    color: red;
+    cursor: pointer;
+    font-family: 'sedgwick ave display';
+    font-size: 60px;
+}
+
+.ver-carrito {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+}
+
+/*banner*/
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url(img/flying.JPG);
+}
+
+.banner-container {
+    text-align: center;
+    padding: 15% 0;
+    font-family: 'sedgwick ave display';
+    font-size: 100%;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 100px;
+    color: greenyellow;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    
+}
+
+.banner p {
+    font-size: 50px;
+    color: red;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* sneakers cards */
+
+.shop-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.card-body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 23rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.card-body .imgCardCarrito {
+    width: 100%;
+    height: 10rem;
+    border-radius: 10px;
+    box-shadow: 4px solid greenyellow;
+}
+
+.card-body .cardCarritoContMn {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-body .restar {
+    background-color: red;
+    width: 30%;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card-body .sumar {
+    background-color: rgb(36, 132, 55);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card>img {
+    max-width: 100%;
+    height: 250px;
+}
+
+.card h3 {
+    text-align: center;
+    color: red;
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+}
+
+.precio {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Permanent Marker';
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: red;
+    font-family: "Permanent Marker";
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+/* ====== Content ====== */
+
+.model-container {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: greenyellow;
+    background-color: rgb(169, 221, 66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* ======= Top ======= */
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+}
+
+.model-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.model-header-button {
+    cursor: pointer;
+    font-family: "Permanent Marker";
+    background-color: black;
+    padding: 4px;
+    width: 10%;
+    text-align: center;
+    border-radius: 20px;
+    border-bottom: 3px solid greenyellow;
+    transition: 0.5s ease-in-out;
+}
+
+.model-header-button:hover {
+    background-color: greenyellow;
+    border-bottom: 3px solid black;
+    color: red;
+}
+
+.model-end-button {
+    cursor: pointer;
+    font-family: "Permanent Marker";
+    background-color: black;
+    padding: 4px;
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
+    border-bottom: 3px solid greenyellow;
+    transition: 0.5s ease-in-out;
+}
+
+.model-end-button:hover {
+    background-color: greenyellow;
+    border-bottom: 3px solid black;
+    color: red;
+}
+
+.model-container>.model-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.model-container>div img {
+    height: 120px;
+    width: 120%;
+}
+
+
+.total-a-pagar {
+    font-size: 50px;
+    font-family: "Permanent Marker";
+    color: black
+}
+
+.total-content {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* delete button product */
+.delete-product {
+    cursor: pointer;
+}
+
+.sumar {
+    cursor: pointer;
+}
+
+.restar {
+    cursor: pointer;
+}
+
+/*cart counter*/
+
+.cantidad-carrito {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+}

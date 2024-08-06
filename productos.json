@@ -1,0 +1,66 @@
+[{
+    "id": 1,
+    "nombre": "Bart",
+    "precio": 120,
+    "img": "../img/chaklib.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Fire",
+    "precio": 150,
+    "img": "../img/loschak.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Johnny",
+    "precio": 150,
+    "img": "../img/osho.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Joker",
+    "precio": 150,
+    "img": "../img/regaka.jpg",
+    "cantidad": 1
+  },
+
+  {
+    "id": 5,
+    "nombre": "Heroe",
+    "precio": 150,
+    "img": "../img/reiauto.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Mixin",
+    "precio": 150,
+    "img": "../img/reicom.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 7,
+    "nombre": "Light",
+    "precio": 150,
+    "img": "../img/reiki.JPG",
+    "cantidad": 1
+  },
+  {
+    "id": 8,
+    "nombre": "DC",
+    "precio": 150,
+    "img": "../img/reikicha.JPG",
+    "cantidad": 1
+  },
+  {
+    "id": 9,
+    "nombre": "Picture",
+    "precio": 150,
+    "img": "../img/vibra.jpg",
+    "cantidad": 1
+  }
+
+]
