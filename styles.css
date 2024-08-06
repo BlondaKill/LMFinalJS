@@ -27,7 +27,6 @@ body {
     margin-left: 20px;
     color: red;
     cursor: pointer;
-    font-family: 'sedgwick ave display';
     font-size: 60px;
 }
 
@@ -50,7 +49,6 @@ body {
 .banner-container {
     text-align: center;
     padding: 15% 0;
-    font-family: 'sedgwick ave display';
     font-size: 100%;
 }
 
@@ -132,7 +130,6 @@ body {
 .card h3 {
     text-align: center;
     color: red;
-    font-family: 'Permanent Marker';
     font-size: 30px;
 }
 
@@ -140,7 +137,7 @@ body {
     color: black;
     font-size: 30px;
     text-align: center;
-    font-family: 'Permanent Marker';
+    
 }
 
 .card button {
@@ -149,7 +146,6 @@ body {
     padding: 12px;
     color: white;
     background-color: red;
-    font-family: "Permanent Marker";
     font-size: 30px;
     text-align: center;
     cursor: pointer;
@@ -192,7 +188,6 @@ body {
 
 .model-header-button {
     cursor: pointer;
-    font-family: "Permanent Marker";
     background-color: black;
     padding: 4px;
     width: 10%;
@@ -210,7 +205,6 @@ body {
 
 .model-end-button {
     cursor: pointer;
-    font-family: "Permanent Marker";
     background-color: black;
     padding: 4px;
     width: 25%;
@@ -243,7 +237,6 @@ body {
 
 .total-a-pagar {
     font-size: 50px;
-    font-family: "Permanent Marker";
     color: black
 }
 

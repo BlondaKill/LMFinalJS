@@ -1,27 +1,27 @@
 [{
     "id": 1,
-    "nombre": "Bart",
+    "nombre": "El Gran Libro",
     "precio": 120,
     "img": "../img/chaklib.jpg",
     "cantidad": 1
   },
   {
     "id": 2,
-    "nombre": "Fire",
+    "nombre": "Los Chakras",
     "precio": 150,
     "img": "../img/loschak.jpg",
     "cantidad": 1
   },
   {
     "id": 3,
-    "nombre": "Johnny",
+    "nombre": "Osho",
     "precio": 150,
     "img": "../img/osho.jpg",
     "cantidad": 1
   },
   {
     "id": 4,
-    "nombre": "Joker",
+    "nombre": "Reg Akashicos",
     "precio": 150,
     "img": "../img/regaka.jpg",
     "cantidad": 1
@@ -29,35 +29,35 @@
 
   {
     "id": 5,
-    "nombre": "Heroe",
+    "nombre": "Reiki Autosanacion",
     "precio": 150,
     "img": "../img/reiauto.jpg",
     "cantidad": 1
   },
   {
     "id": 6,
-    "nombre": "Mixin",
+    "nombre": "Reiki",
     "precio": 150,
     "img": "../img/reicom.jpg",
     "cantidad": 1
   },
   {
     "id": 7,
-    "nombre": "Light",
+    "nombre": "Reiki II",
     "precio": 150,
     "img": "../img/reiki.JPG",
     "cantidad": 1
   },
   {
     "id": 8,
-    "nombre": "DC",
+    "nombre": "Reiki & Chakras",
     "precio": 150,
     "img": "../img/reikicha.JPG",
     "cantidad": 1
   },
   {
     "id": 9,
-    "nombre": "Picture",
+    "nombre": "Eres Vibracion",
     "precio": 150,
     "img": "../img/vibra.jpg",
     "cantidad": 1
