@@ -1,3 +1,4 @@
+
 const shopContent = document.getElementById(id = "shopContent");
 const verCarrito = document.getElementById("verCarrito");
 const modelContainer = document.getElementById("model-container");
@@ -29,11 +30,11 @@ function mostrarProductos(productos) {
         let content = document.createElement('div');
         content.className = "card"
         content.innerHTML = `
-    <img src= "${product.img}">
-    <h3>${product.nombre}</h3>
-    <p class="precio">${product.precio} $</p>
+            <img src= "${product.img}">
+            <h3>${product.nombre}</h3>
+            <p class="precio">${product.precio} $</p>
 `;
-
+        
         shopContent.append(content);
 
         let comprar = document.createElement("button");
@@ -92,7 +93,8 @@ function agregarAlCarrito(e, productos) {
         imageWidth: 300,
         imageHeight: 200,
         imageAlt: 'prodEncontrado.nombre',
-    })
+    });
     myAudio.play();
     saveLocal();
 }
+

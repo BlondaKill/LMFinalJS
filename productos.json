@@ -7,9 +7,9 @@
   },
   {
     "id": 2,
-    "nombre": "Los Chakras",
+    "nombre": "Eres Vibracion",
     "precio": 150,
-    "img": "../img/loschak.jpg",
+    "img": "../img/vibra.jpg",
     "cantidad": 1
   },
   {
@@ -54,13 +54,6 @@
     "precio": 150,
     "img": "../img/reikicha.JPG",
     "cantidad": 1
-  },
-  {
-    "id": 9,
-    "nombre": "Eres Vibracion",
-    "precio": 150,
-    "img": "../img/vibra.jpg",
-    "cantidad": 1
   }
-
+  
 ]

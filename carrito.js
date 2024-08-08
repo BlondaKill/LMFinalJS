@@ -2,7 +2,6 @@ const pintarCarrito = () => {
 
     modelContainer.innerHTML = '';
     modelContainer.style.display = 'flex';
-
     calcularTotal();
 
 
@@ -25,11 +24,11 @@ const pintarCarrito = () => {
             <span class = 'delete-product'>🗑️</span> 
             </div> `;
 
+
         modelContainer.append(carritoContent);
 
 
         let restar = carritoContent.querySelector('.restar');
-
         restar.addEventListener("click", () => {
             if (product.cantidad > 1) {
                 product.cantidad--;
@@ -51,7 +50,6 @@ const pintarCarrito = () => {
         });
 
         let sumar = carritoContent.querySelector('.sumar');
-
         sumar.addEventListener("click", () => {
 
             product.cantidad++;
