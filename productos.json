@@ -2,28 +2,28 @@
     "id": 1,
     "nombre": "El Gran Libro",
     "precio": 120,
-    "img": "../img/chaklib.jpg",
+    "img": "img/chaklib.jpg",
     "cantidad": 1
   },
   {
     "id": 2,
     "nombre": "Eres Vibracion",
     "precio": 150,
-    "img": "../img/vibra.jpg",
+    "img": "img/vibra.jpg",
     "cantidad": 1
   },
   {
     "id": 3,
     "nombre": "Osho",
     "precio": 150,
-    "img": "../img/osho.jpg",
+    "img": "img/osho.jpg",
     "cantidad": 1
   },
   {
     "id": 4,
     "nombre": "Reg Akashicos",
     "precio": 150,
-    "img": "../img/regaka.jpg",
+    "img": "img/regaka.jpg",
     "cantidad": 1
   },
 
@@ -31,28 +31,28 @@
     "id": 5,
     "nombre": "Reiki Autosanacion",
     "precio": 150,
-    "img": "../img/reiauto.jpg",
+    "img": "img/reiauto.jpg",
     "cantidad": 1
   },
   {
     "id": 6,
     "nombre": "Reiki",
     "precio": 150,
-    "img": "../img/reicom.jpg",
+    "img": "img/reicom.jpg",
     "cantidad": 1
   },
   {
     "id": 7,
     "nombre": "Reiki II",
     "precio": 150,
-    "img": "../img/reiki.JPG",
+    "img": "img/reiki.JPG",
     "cantidad": 1
   },
   {
     "id": 8,
     "nombre": "Reiki & Chakras",
     "precio": 150,
-    "img": "../img/reikicha.JPG",
+    "img": "img/reikicha.JPG",
     "cantidad": 1
   }
   
