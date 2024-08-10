@@ -72,7 +72,7 @@ body {
 .shop-content {
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    
     flex-wrap: wrap;
     margin-top: 10px;
     margin-right: 80px;
