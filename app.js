@@ -28,11 +28,12 @@ function mostrarProductos(productos) {
 
     productos.forEach((product) => {
         let content = document.createElement('div');
-        content.className = "card"
-        content.innerHTML = `
+        content.className = "col-lg-3 mb-3"
+        content.innerHTML = `<div class = "card">
             <img src= "${product.img}">
             <h3>${product.nombre}</h3>
             <p class="precio">${product.precio} $</p>
+            </div>
 `;
         
         shopContent.append(content);
